@@ -1,0 +1,5 @@
+name = "Jinja2 JSON"
+grammar = "jinja"
+path_suffixes = ["json.j2", "j2.json", "jinja.json"]
+line_comments = ["// "]
+tab_size = 2

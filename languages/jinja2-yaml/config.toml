@@ -1,0 +1,15 @@
+name = "Jinja2 YAML"
+grammar = "jinja"
+# Match common templated YAML suffixes
+path_suffixes = [
+    "yaml.j2",
+    "yml.j2",
+    "j2.yaml",
+    "j2.yml",
+    "jinja.yaml",
+    "jinja.yml",
+    "sls",
+]
+line_comments = ["# "]
+# Keep YAML‑style two‑space indents
+tab_size = 2

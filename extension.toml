@@ -1,11 +1,13 @@
-id = "zed-jinja2"
-name = "Jinja / Jinja2 support"
+id = "jinja2-embedded"
+name = "Jinja2 Embedded (YAML/JSON)"
+description = "Highlight Jinja2 templates in YAML & JSON files"
 version = "0.1.0"
 schema_version = 1
 authors = ["you <you@example.com>"]
-description = "Jinja syntax with host-language injections for YAML/JSON"
-repository = "https://example.com/your/zed-jinja"
+repository = "https://github.com/your-org/zed-jinja2-embedded"
 
-[grammars.jinja2]
-repository = "https://github.com/sergeygalkin/zed-jinja2"
-commit = "f66c1d3c0998f7b19df8c3e4c488ed438abbced2"
+# Register the Jinja grammar (Tree‑sitter)
+[grammars.jinja]
+repository = "https://github.com/cathaysia/tree-sitter-jinja"
+commit = "129184fb7bbc2d3e29967002432a869ac3758f2e"           # pin a release/tag/commit                                             # pin a release/tag/commit
+path = "tree-sitter-jinja"
