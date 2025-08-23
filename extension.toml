@@ -8,4 +8,4 @@ repository = "https://example.com/your/zed-jinja"
 
 [grammars.jinja2]
 repository = "https://github.com/sergeygalkin/zed-jinja2"
-commit = "f5c7baa443b9d20746d2335230967234e01c934c"
+commit = "f66c1d3c0998f7b19df8c3e4c488ed438abbced2"
