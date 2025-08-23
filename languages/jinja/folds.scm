@@ -1,0 +1,12 @@
+(if_statement)        @fold
+(for_statement)       @fold
+(block_statement)     @fold
+(macro_statement)     @fold
+(call_block)          @fold
+(filter_block)        @fold
+(with_block)          @fold
+(set_block)           @fold
+(raw_block)           @fold
+
+
+(comment) @fold
