@@ -1,0 +1,6 @@
+name = "Jinja2 Plain"
+grammar = "jinja"
+# Plain Jinja2 templates without a known host language (only Jinja syntax is highlighted)
+path_suffixes = ["j2", "jinja", "jinja2"]
+line_comments = ["# "]
+tab_size = 2
