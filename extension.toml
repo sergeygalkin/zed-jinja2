@@ -11,3 +11,7 @@ repository = "https://github.com/sergeygalkin/zed-jinja2"
 repository = "https://github.com/cathaysia/tree-sitter-jinja"
 commit = "129184fb7bbc2d3e29967002432a869ac3758f2e"
 path = "tree-sitter-jinja"
+
+[jinja2-embedded]
+submodule = "extensions/jinja2-embedded"
+version = "0.1.0"
