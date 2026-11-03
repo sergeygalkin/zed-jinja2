@@ -1,16 +1,16 @@
-# Jinja2 Embedded for Zed
+# Jinja2 Ansible for Zed
 
 Jinja2 template highlighting for Zed: Jinja syntax plus embedded YAML or JSON.
 
 | Language     | File extensions                                                                          |
 |--------------|------------------------------------------------------------------------------------------|
-| Jinja2 YAML  | `*.yaml.j2`, `*.yml.j2`, `*.j2.yaml`, `*.j2.yml`, `*.jinja.yaml`, `*.jinja.yml`, `*.sls` |
+| Jinja2 YAML  | `*.yaml.j2`, `*.yml.j2`, `*.j2.yaml`, `*.j2.yml`, `*.jinja.yaml`, `*.jinja.yml`          |
 | Jinja2 JSON  | `*.json.j2`, `*.j2.json`, `*.jinja.json`                                                 |
 | Jinja2 Plain | `*.j2`, `*.jinja`, `*.jinja2` (Jinja syntax only)                                        |
 
 ## Installation
 
-From Zed: open `zed: extensions` and search for "Jinja2 Embedded".
+From Zed: open `zed: extensions` and search for "Jinja2 Ansible".
 
 Locally: run `zed: install dev extension` and select the repository folder (requires Rust installed via rustup).
 

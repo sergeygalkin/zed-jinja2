@@ -8,7 +8,6 @@ path_suffixes = [
     "j2.yml",
     "jinja.yaml",
     "jinja.yml",
-    "sls",
 ]
 line_comments = ["# "]
 # Keep YAML‑style two‑space indents

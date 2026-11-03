@@ -1,5 +1,5 @@
-id = "jinja2-embedded"
-name = "Jinja2 Embedded (YAML/JSON)"
+id = "jinja2-ansible"
+name = "Jinja2 Ansible"
 description = "Jinja2 highlighting for plain, YAML and JSON templates (.j2, .yaml.j2, .json.j2) for Ansible users"
 version = "0.1.0"
 schema_version = 1
@@ -11,7 +11,3 @@ repository = "https://github.com/sergeygalkin/zed-jinja2"
 repository = "https://github.com/cathaysia/tree-sitter-jinja"
 commit = "129184fb7bbc2d3e29967002432a869ac3758f2e"
 path = "tree-sitter-jinja"
-
-[jinja2-embedded]
-submodule = "extensions/jinja2-embedded"
-version = "0.1.0"
