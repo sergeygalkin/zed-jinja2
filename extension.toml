@@ -1,7 +1,7 @@
 id = "jinja2-ansible"
 name = "Jinja2 Ansible"
 description = "Jinja2 highlighting for plain, YAML and JSON templates (.j2, .yaml.j2, .json.j2) for Ansible users"
-version = "0.1.0"
+version = "0.1.2"
 schema_version = 1
 authors = ["Sergey Galkin"]
 repository = "https://github.com/sergeygalkin/zed-jinja2"
